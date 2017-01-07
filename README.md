@@ -1,4 +1,4 @@
-# user-due-date-management-system
+# Customer-Due-Date-Management-System
 
 # Languages&Libiries Involved:
 Front End: HTML/CSS/Javascript/Vuejs/Vue-router/Vuex/Bootstrap/Jquery/Webpack/
