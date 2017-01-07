@@ -1,0 +1,101 @@
+#loginField{
+    display: none;
+    background-color:cornflowerblue;
+    border-radius: 20px;
+    -webkit-transition: opacity 0.8s; /* Safari */
+    transition: opacity 0.8s;
+}
+
+#loginField.loginSuccess{
+    opacity: 0;
+}
+
+#loginForm form{
+    margin-top:15px;
+}
+
+#mainField{
+    display:none;
+    position: relative;
+    border-radius: 20px;
+}
+
+.mainBnt{
+    background-color:cornflowerblue;
+    border:2px solid white; 
+    width:100%;
+}
+
+.mainBnt:hover{
+    color:cornflowerblue;
+    background-color:white;
+    border-color: cornflowerblue;
+}
+
+
+.mainBnt:focus{
+    color:cornflowerblue;
+    background-color:white;
+    border-color: cornflowerblue;
+}
+
+.mainBnt:active{
+    color:white;
+    background-color:cornflowerblue;
+    border-color: white;
+}
+
+nav{
+    background-color:#337ab7;
+    width:100%;
+    border-color:#2e6da4;
+    border-radius: 4px;
+    padding-right:15px;
+    padding-left:20px;
+}
+
+nav a{
+    color:white;
+    cursor: pointer;
+}
+
+.navWelcome{
+    display: inline-block;
+    color:white;
+    padding-right:15px;
+}
+
+.list-group-item-overflow{
+    max-height:300px;
+    overflow-y:auto;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.caret-right {
+    position: relative;
+    top:6px;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-left: 4px solid;
+    display: inline-block;
+    height: 0;
+    width: 0;
+}
+
+
+@media only screen and (min-width : 992px) {
+    .container-left-padding-0{
+        padding-left:0px;
+    }
+}
